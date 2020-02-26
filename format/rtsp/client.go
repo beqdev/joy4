@@ -838,7 +838,9 @@ func (self *Stream) handleH264Payload(timestamp uint32, packet []byte) (err erro
 	self.pkt.FrameType = 123
 	switch {
 	case naluType >= 1 && naluType <= 5:
-
+		if naluType == 5 {
+			self.pkt.IsKeyFrame = true
+		}
 		self.pkt.FrameType = packet[4]
 
 		self.gotpkt = true
