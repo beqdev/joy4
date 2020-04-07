@@ -55,7 +55,7 @@ int encode(AVCodecContext *avctx, AVPacket *pkt, int *got_packet, AVFrame *frame
 int avcodec_encode_jpeg(AVCodecContext *pCodecCtx, AVFrame *pFrame,AVPacket *packet) {
     AVCodec *jpegCodec = avcodec_find_encoder(AV_CODEC_ID_MJPEG);
     int ret = -1;
-     
+
     if (!jpegCodec) {
         return ret;
     }
@@ -66,7 +66,7 @@ int avcodec_encode_jpeg(AVCodecContext *pCodecCtx, AVFrame *pFrame,AVPacket *pac
         return ret;
     }
     
-    jpegContext->pix_fmt = pCodecCtx->pix_fmt;
+    jpegContext->pix_fmt = jpegContext->pix_fmt == AV_PIX_FMT_NONE ?AV_PIX_FMT_YUVJ420P:jpegContext->pix_fmt;
     jpegContext->height = pFrame->height;
     jpegContext->width = pFrame->width;
     jpegContext->time_base= (AVRational){1,25};
