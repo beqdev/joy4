@@ -206,14 +206,19 @@ func (self *Stream) addPacket(payload []byte, timedelta time.Duration) {
 
 func (self *Stream) payloadEnd() (n int, err error) {
 	payload := self.data
+
+	defer func() {
+		self.data = nil
+	}()
+
 	if payload == nil {
 		return
 	}
+
 	if self.datalen != 0 && len(payload) != self.datalen {
 		err = fmt.Errorf("ts: packet size mismatch size=%d correct=%d", len(payload), self.datalen)
 		return
 	}
-	self.data = nil
 
 	switch self.streamType {
 	case tsio.ElementaryStreamTypeAdtsAAC:
