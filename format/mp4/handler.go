@@ -1,9 +1,9 @@
 package mp4
 
 import (
+	"github.com/beqdev/joy4/av"
+	"github.com/beqdev/joy4/av/avutil"
 	"io"
-	"joy4/av"
-	"joy4/av/avutil"
 )
 
 var CodecTypes = []av.CodecType{av.H264, av.AAC}

@@ -2,8 +2,8 @@ package mp4io
 
 import (
 	"fmt"
+	"github.com/beqdev/joy4/utils/bits/pio"
 	"io"
-	"joy4/utils/bits/pio"
 	"math"
 	"os"
 	"strings"

@@ -3,11 +3,11 @@ package mp4
 import (
 	"errors"
 	"fmt"
+	"github.com/beqdev/joy4/av"
+	"github.com/beqdev/joy4/codec/aacparser"
+	"github.com/beqdev/joy4/codec/h264parser"
+	"github.com/beqdev/joy4/format/mp4/mp4io"
 	"io"
-	"joy4/av"
-	"joy4/codec/aacparser"
-	"joy4/codec/h264parser"
-	"joy4/format/mp4/mp4io"
 	"time"
 )
 

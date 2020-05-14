@@ -1,8 +1,8 @@
 package mp4
 
 import (
-	"joy4/av"
-	"joy4/format/mp4/mp4io"
+	"github.com/beqdev/joy4/av"
+	"github.com/beqdev/joy4/format/mp4/mp4io"
 	"time"
 )
 

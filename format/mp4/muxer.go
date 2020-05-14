@@ -3,12 +3,12 @@ package mp4
 import (
 	"bufio"
 	"fmt"
+	"github.com/beqdev/joy4/av"
+	"github.com/beqdev/joy4/codec/aacparser"
+	"github.com/beqdev/joy4/codec/h264parser"
+	"github.com/beqdev/joy4/format/mp4/mp4io"
+	"github.com/beqdev/joy4/utils/bits/pio"
 	"io"
-	"joy4/av"
-	"joy4/codec/aacparser"
-	"joy4/codec/h264parser"
-	"joy4/format/mp4/mp4io"
-	"joy4/utils/bits/pio"
 	"time"
 )
 

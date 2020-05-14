@@ -1,7 +1,7 @@
 package mp4io
 
 import (
-	"joy4/utils/bits/pio"
+	"github.com/beqdev/joy4/utils/bits/pio"
 	"time"
 )
 
