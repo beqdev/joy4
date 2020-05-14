@@ -8,6 +8,7 @@ import (
 	"github.com/Danile71/joy4/format/rtmp"
 	"github.com/Danile71/joy4/format/rtsp"
 	"github.com/Danile71/joy4/format/ts"
+	"joy4/format/mjpeg"
 )
 
 func RegisterAll() {
@@ -17,4 +18,5 @@ func RegisterAll() {
 	avutil.DefaultHandlers.Add(rtsp.Handler)
 	avutil.DefaultHandlers.Add(flv.Handler)
 	avutil.DefaultHandlers.Add(aac.Handler)
+	avutil.DefaultHandlers.Add(mjpeg.Handler)
 }
