@@ -2,10 +2,10 @@ package tsio
 
 import (
 	"fmt"
+	"github.com/beqdev/joy4/utils/bits/pio"
 	"io"
 	"time"
 
-	"github.com/Danile71/joy4/utils/bits/pio"
 )
 
 const (

@@ -3,8 +3,8 @@ package transcode
 
 import (
 	"fmt"
-	"joy4/av"
-	"joy4/av/pktque"
+	"github.com/beqdev/joy4/av"
+	"github.com/beqdev/joy4/av/pktque"
 	"time"
 )
 

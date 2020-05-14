@@ -5,9 +5,9 @@ package ffmpeg
 import "C"
 import (
 	"fmt"
+	"github.com/beqdev/joy4/av"
+	"github.com/beqdev/joy4/codec/h264parser"
 	"image"
-	"joy4/av"
-	"joy4/codec/h264parser"
 	"reflect"
 	"runtime"
 	"unsafe"

@@ -2,12 +2,12 @@ package main
 
 import (
 	"fmt"
-	"joy4/av"
-	"joy4/av/avutil"
-	"joy4/av/pktque"
-	"joy4/av/pubsub"
-	"joy4/format"
-	"joy4/format/rtmp"
+	"github.com/beqdev/joy4/av"
+	"github.com/beqdev/joy4/av/avutil"
+	"github.com/beqdev/joy4/av/pktque"
+	"github.com/beqdev/joy4/av/pubsub"
+	"github.com/beqdev/joy4/format"
+	"github.com/beqdev/joy4/format/rtmp"
 	"sync"
 	"time"
 )

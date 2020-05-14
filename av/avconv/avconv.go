@@ -2,11 +2,11 @@ package avconv
 
 import (
 	"fmt"
+	"github.com/beqdev/joy4/av"
+	"github.com/beqdev/joy4/av/avutil"
+	"github.com/beqdev/joy4/av/pktque"
+	"github.com/beqdev/joy4/av/transcode"
 	"io"
-	"joy4/av"
-	"joy4/av/avutil"
-	"joy4/av/pktque"
-	"joy4/av/transcode"
 	"time"
 )
 

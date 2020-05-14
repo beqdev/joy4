@@ -8,9 +8,10 @@ package ffmpeg
 import "C"
 import (
 	"fmt"
-	"joy4/av"
-	"joy4/av/avutil"
-	"joy4/codec/aacparser"
+	"github.com/beqdev/joy4/av"
+	"github.com/beqdev/joy4/av/avutil"
+	"github.com/beqdev/joy4/codec/aacparser"
+
 	"runtime"
 	"time"
 	"unsafe"

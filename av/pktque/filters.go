@@ -2,7 +2,7 @@
 package pktque
 
 import (
-	"joy4/av"
+	"github.com/beqdev/joy4/av"
 	"time"
 )
 

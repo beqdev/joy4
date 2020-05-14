@@ -1,12 +1,12 @@
 package main
 
 import (
+	"github.com/beqdev/joy4/av/avutil"
+	"github.com/beqdev/joy4/av/pubsub"
+	"github.com/beqdev/joy4/format"
+	"github.com/beqdev/joy4/format/flv"
+	"github.com/beqdev/joy4/format/rtmp"
 	"io"
-	"joy4/av/avutil"
-	"joy4/av/pubsub"
-	"joy4/format"
-	"joy4/format/flv"
-	"joy4/format/rtmp"
 	"net/http"
 	"sync"
 )

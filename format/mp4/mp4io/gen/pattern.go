@@ -1,6 +1,6 @@
 package main
 
-import "joy4/utils/bits/pio"
+import "github.com/beqdev/joy4/utils/bits/pio"
 
 func moov_Movie() {
 	atom(Header, MovieHeader)

@@ -1,10 +1,10 @@
 package rtsp
 
 import (
+	"github.com/beqdev/joy4/av"
+	"github.com/beqdev/joy4/format/rtsp/sdp"
 	"time"
 
-	"github.com/Danile71/joy4/av"
-	"github.com/Danile71/joy4/format/rtsp/sdp"
 )
 
 type Stream struct {

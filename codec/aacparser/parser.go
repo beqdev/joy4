@@ -3,9 +3,9 @@ package aacparser
 import (
 	"bytes"
 	"fmt"
+	"github.com/beqdev/joy4/av"
+	"github.com/beqdev/joy4/utils/bits"
 	"io"
-	"joy4/av"
-	"joy4/utils/bits"
 	"time"
 
 )

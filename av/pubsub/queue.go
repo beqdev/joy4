@@ -2,9 +2,9 @@
 package pubsub
 
 import (
+	"github.com/beqdev/joy4/av"
+	"github.com/beqdev/joy4/av/pktque"
 	"io"
-	"joy4/av"
-	"joy4/av/pktque"
 	"sync"
 	"time"
 )

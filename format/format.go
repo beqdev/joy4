@@ -1,13 +1,13 @@
 package format
 
 import (
-	"github.com/Danile71/joy4/av/avutil"
-	"github.com/Danile71/joy4/format/aac"
-	"github.com/Danile71/joy4/format/flv"
-	"github.com/Danile71/joy4/format/mp4"
-	"github.com/Danile71/joy4/format/rtmp"
-	"github.com/Danile71/joy4/format/rtsp"
-	"github.com/Danile71/joy4/format/ts"
+	"github.com/beqdev/joy4/av/avutil"
+	"github.com/beqdev/joy4/format/aac"
+	"github.com/beqdev/joy4/format/flv"
+	"github.com/beqdev/joy4/format/mp4"
+	"github.com/beqdev/joy4/format/rtmp"
+	"github.com/beqdev/joy4/format/rtsp"
+	"github.com/beqdev/joy4/format/ts"
 )
 
 func RegisterAll() {

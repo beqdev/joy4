@@ -1,11 +1,11 @@
 package main
 
 import (
-	"joy4/av"
-	"joy4/av/avutil"
-	"joy4/av/transcode"
-	"joy4/cgo/ffmpeg"
-	"joy4/format"
+	"github.com/beqdev/joy4/av"
+	"github.com/beqdev/joy4/av/avutil"
+	"github.com/beqdev/joy4/av/transcode"
+	"github.com/beqdev/joy4/cgo/ffmpeg"
+	"github.com/beqdev/joy4/format"
 )
 
 // need ffmpeg with libfdkaac installed

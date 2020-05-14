@@ -2,13 +2,13 @@ package ts
 
 import (
 	"fmt"
+	"github.com/beqdev/joy4/av"
+	"github.com/beqdev/joy4/codec/aacparser"
+	"github.com/beqdev/joy4/codec/h264parser"
+	"github.com/beqdev/joy4/format/ts/tsio"
 	"io"
 	"time"
 
-	"github.com/Danile71/joy4/av"
-	"github.com/Danile71/joy4/codec/aacparser"
-	"github.com/Danile71/joy4/codec/h264parser"
-	"github.com/Danile71/joy4/format/ts/tsio"
 )
 
 var CodecTypes = []av.CodecType{av.H264, av.AAC}

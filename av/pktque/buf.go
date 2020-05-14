@@ -1,6 +1,6 @@
 package pktque
 
-import "joy4/av"
+import "github.com/beqdev/joy4/av"
 
 type Buf struct {
 	Head, Tail BufPos
