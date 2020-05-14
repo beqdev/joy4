@@ -1,8 +1,6 @@
 package fake
 
-import (
-	"github.com/Danile71/joy4/av"
-)
+import "joy4/av"
 
 type CodecData struct {
 	CodecType_     av.CodecType

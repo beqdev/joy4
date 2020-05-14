@@ -4,10 +4,10 @@ import (
 	"bytes"
 	"fmt"
 	"io"
+	"joy4/av"
+	"joy4/utils/bits"
 	"time"
 
-	"github.com/Danile71/joy4/av"
-	"github.com/Danile71/joy4/utils/bits"
 )
 
 // copied from libavcodec/mpeg4audio.h

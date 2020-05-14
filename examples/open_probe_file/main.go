@@ -2,9 +2,9 @@ package main
 
 import (
 	"fmt"
-	"github.com/Danile71/joy4/av"
-	"github.com/Danile71/joy4/av/avutil"
-	"github.com/Danile71/joy4/format"
+	"joy4/av"
+	"joy4/av/avutil"
+	"joy4/format"
 )
 
 func init() {
@@ -36,4 +36,3 @@ func main() {
 
 	file.Close()
 }
-

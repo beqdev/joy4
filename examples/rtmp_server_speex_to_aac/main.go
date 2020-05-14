@@ -1,16 +1,16 @@
 package main
 
 import (
-	"github.com/Danile71/joy4/av"
-	"github.com/Danile71/joy4/av/transcode"
-	"github.com/Danile71/joy4/format"
-	"github.com/Danile71/joy4/av/avutil"
-	"github.com/Danile71/joy4/format/rtmp"
-	"github.com/Danile71/joy4/cgo/ffmpeg"
+	"joy4/av"
+	"joy4/av/avutil"
+	"joy4/av/transcode"
+	"joy4/cgo/ffmpeg"
+	"joy4/format"
+	"joy4/format/rtmp"
 )
 
 // need ffmpeg with libspeex and libfdkaac installed
-// 
+//
 // open http://www.wowza.com/resources/4.4.1/examples/WebcamRecording/FlashRTMPPlayer11/player.html
 // click connect and recored
 // input camera H264/SPEEX will converted H264/AAC and saved in out.ts

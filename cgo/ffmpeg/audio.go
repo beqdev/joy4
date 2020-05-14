@@ -8,13 +8,13 @@ package ffmpeg
 import "C"
 import (
 	"fmt"
+	"joy4/av"
+	"joy4/av/avutil"
+	"joy4/codec/aacparser"
 	"runtime"
 	"time"
 	"unsafe"
 
-	"github.com/Danile71/joy4/av"
-	"github.com/Danile71/joy4/av/avutil"
-	"github.com/Danile71/joy4/codec/aacparser"
 )
 
 const debug = false

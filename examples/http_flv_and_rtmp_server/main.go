@@ -1,14 +1,14 @@
 package main
 
 import (
-	"sync"
 	"io"
+	"joy4/av/avutil"
+	"joy4/av/pubsub"
+	"joy4/format"
+	"joy4/format/flv"
+	"joy4/format/rtmp"
 	"net/http"
-	"github.com/Danile71/joy4/format"
-	"github.com/Danile71/joy4/av/avutil"
-	"github.com/Danile71/joy4/av/pubsub"
-	"github.com/Danile71/joy4/format/rtmp"
-	"github.com/Danile71/joy4/format/flv"
+	"sync"
 )
 
 func init() {
@@ -78,7 +78,7 @@ func main() {
 
 		if ch != nil {
 			w.Header().Set("Content-Type", "video/x-flv")
-			w.Header().Set("Transfer-Encoding", "chunked")		
+			w.Header().Set("Transfer-Encoding", "chunked")
 			w.Header().Set("Access-Control-Allow-Origin", "*")
 			w.WriteHeader(200)
 			flusher := w.(http.Flusher)

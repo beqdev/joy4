@@ -3,12 +3,11 @@ package mp4io
 import (
 	"fmt"
 	"io"
+	"joy4/utils/bits/pio"
 	"math"
 	"os"
 	"strings"
 	"time"
-
-	"github.com/Danile71/joy4/utils/bits/pio"
 )
 
 type ParseError struct {

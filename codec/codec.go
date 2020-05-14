@@ -1,10 +1,9 @@
 package codec
 
 import (
+	"joy4/av"
+	"joy4/codec/fake"
 	"time"
-
-	"github.com/Danile71/joy4/av"
-	"github.com/Danile71/joy4/codec/fake"
 )
 
 type PCMUCodecData struct {

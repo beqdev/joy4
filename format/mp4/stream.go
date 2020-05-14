@@ -1,10 +1,9 @@
 package mp4
 
 import (
+	"joy4/av"
+	"joy4/format/mp4/mp4io"
 	"time"
-
-	"github.com/Danile71/joy4/av"
-	"github.com/Danile71/joy4/format/mp4/mp4io"
 )
 
 type Stream struct {

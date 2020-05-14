@@ -4,15 +4,14 @@ import (
 	"bufio"
 	"fmt"
 	"io"
-
-	"github.com/Danile71/joy4/av"
-	"github.com/Danile71/joy4/av/avutil"
-	"github.com/Danile71/joy4/codec"
-	"github.com/Danile71/joy4/codec/aacparser"
-	"github.com/Danile71/joy4/codec/fake"
-	"github.com/Danile71/joy4/codec/h264parser"
-	"github.com/Danile71/joy4/format/flv/flvio"
-	"github.com/Danile71/joy4/utils/bits/pio"
+	"joy4/av"
+	"joy4/av/avutil"
+	"joy4/codec"
+	"joy4/codec/aacparser"
+	"joy4/codec/fake"
+	"joy4/codec/h264parser"
+	"joy4/format/flv/flvio"
+	"joy4/utils/bits/pio"
 )
 
 var MaxProbePacketCount = 20

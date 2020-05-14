@@ -1,10 +1,10 @@
 package main
 
 import (
-	"github.com/Danile71/joy4/av/pktque"
-	"github.com/Danile71/joy4/format"
-	"github.com/Danile71/joy4/av/avutil"
-	"github.com/Danile71/joy4/format/rtmp"
+	"joy4/av/avutil"
+	"joy4/av/pktque"
+	"joy4/format"
+	"joy4/format/rtmp"
 )
 
 func init() {
@@ -24,4 +24,3 @@ func main() {
 	file.Close()
 	conn.Close()
 }
-

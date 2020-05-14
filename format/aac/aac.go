@@ -4,11 +4,10 @@ import (
 	"bufio"
 	"fmt"
 	"io"
+	"joy4/av"
+	"joy4/av/avutil"
+	"joy4/codec/aacparser"
 	"time"
-
-	"github.com/Danile71/joy4/av"
-	"github.com/Danile71/joy4/av/avutil"
-	"github.com/Danile71/joy4/codec/aacparser"
 )
 
 type Muxer struct {

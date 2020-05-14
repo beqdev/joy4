@@ -3,10 +3,9 @@ package h264parser
 import (
 	"bytes"
 	"fmt"
-
-	"github.com/Danile71/joy4/av"
-	"github.com/Danile71/joy4/utils/bits"
-	"github.com/Danile71/joy4/utils/bits/pio"
+	"joy4/av"
+	"joy4/utils/bits"
+	"joy4/utils/bits/pio"
 )
 
 const (

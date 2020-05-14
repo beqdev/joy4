@@ -6,12 +6,12 @@ import "C"
 import (
 	"fmt"
 	"image"
+	"joy4/av"
+	"joy4/codec/h264parser"
 	"reflect"
 	"runtime"
 	"unsafe"
 
-	"github.com/Danile71/joy4/av"
-	"github.com/Danile71/joy4/codec/h264parser"
 )
 
 type VideoDecoder struct {

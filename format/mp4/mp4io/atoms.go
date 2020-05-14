@@ -1,7 +1,9 @@
 package mp4io
 
-import "github.com/Danile71/joy4/utils/bits/pio"
-import "time"
+import (
+	"joy4/utils/bits/pio"
+	"time"
+)
 
 const MOOF = Tag(0x6d6f6f66)
 
